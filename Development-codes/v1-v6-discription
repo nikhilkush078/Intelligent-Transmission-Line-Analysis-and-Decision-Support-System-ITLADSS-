@@ -1,0 +1,17 @@
+              USER QUESTION
+                    ↓
+             INTENT DETECTOR
+                    ↓
+          ┌─────────┴─────────┐
+          ↓                   ↓
+    Normal Question       WHAT-IF
+          ↓                   ↓
+    Current Values       Change Parameter
+          ↓                   ↓
+          └─────────┬─────────┘
+                    ↓
+           ENGINEERING ENGINE
+                    ↓
+                RESULTS
+                    ↓
+              FINAL ANSWER

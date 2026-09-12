@@ -1,0 +1,22 @@
+                 USER
+                   │
+                   ▼
+             Any question
+                   │
+                   ▼
+           detect_intent()
+                   │
+          ┌────────┴────────┐
+          ▼                 ▼
+     GET_LENGTH       LENGTH_EFFECT
+          │                 │
+          ▼                 ▼
+   Current value       Engineering rule
+          │                 │
+          └────────┬────────┘
+                   ▼
+              ANSWER
+
+
+
+              

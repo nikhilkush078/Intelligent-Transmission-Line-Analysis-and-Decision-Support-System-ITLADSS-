@@ -1,0 +1,45 @@
+┌──────────────────────────────────────────────┐
+│       TRANSMISSION LINE ANALYZER             │
+├──────────────────────────────────────────────┤
+│                                              │
+│  INPUT PARAMETERS       CALCULATED RESULTS   │
+│                                              │
+│  Voltage: ___ kV        Resistance: ___ Ω    │
+│  Current: ___ A         Inductance: ___ mH   │
+│  Length:  ___ km        Capacitance: ___ nF  │
+│  Frequency: ___ Hz      Loss: ___ %          │
+│                         Efficiency: ___ %    │
+│                                              │
+├──────────────────────────────────────────────┤
+│          ENGINEERING ASSISTANT               │
+│                                              │
+│  You: What happens if I increase length      │
+│       to 150 km?                             │
+│                                              │
+│  AI:  Increasing length from 100 km to       │
+│       150 km changes:                        │
+│                                              │
+│       Inductance: +50%                       │
+│       Resistance: +50%                       │
+│       Capacitance: +50%                      │
+│       Loss: ...                              │
+│                                              │
+│  [ Ask Question __________________ ] [Send]  │
+└──────────────────────────────────────────────┘
+
+
+DEVELOPMENT SEQUESNCE 
+
+V1 → One parameter
+ ↓
+V2 → Multiple parameters + equations
+ ↓
+V3 → Real transmission-line calculator
+ ↓
+V4 → Engineering knowledge/rules
+ ↓
+V5 → What-if analysis
+ ↓
+V6 → Parameter extraction
+ ↓
+V7 → Medium-level GUI software
